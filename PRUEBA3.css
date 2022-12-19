@@ -1,0 +1,32 @@
+a:link {
+    color: red;
+}
+
+a:visited{
+    color: rgba(19, 226, 0, 0.63);
+    background-color: pink;
+}
+
+p:hover{
+    font-style: italic;
+}
+
+p > strong {
+    color: blue;
+
+}
+p + p {
+    color: green;
+}
+
+a[href] {
+    font-variant: small-caps;
+}
+
+a[href="https://www.duckuckgo.com"] {
+    font-weight: bold ;
+}
+
+strong[title~="cuenca"] {
+    background-color: yellow;
+}
